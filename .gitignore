@@ -1,0 +1,84 @@
+# ================================
+# Flutter / Dart
+# ================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter generated files
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Dart generated files
+*.class
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# ================================
+# Python / FastAPI Backend
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/venv/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDE
+# ================================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+# Keep .vscode if you want to share project settings
+# Uncomment the next line if you DON'T want to commit it
+# .vscode/
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Other
+# ================================
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ================================
+# Flutter symbolication / obfuscation
+# ================================
+app.*.symbols
+app.*.map.json
